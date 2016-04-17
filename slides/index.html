@@ -652,14 +652,14 @@ for( let s of set ) {
         <section>
           <h2>Default Parameter</h2>
           <pre style="width: 100%; font-size: 0.8em;"><code class="javascript" data-trim>
-function add( a, b = 10 ) {
+function f( a, b = 10 ) {
   return a + b;
 }
 
-console.log( add( 3, 5 ) );
+console.log( f( 3, 5 ) );
 // > 8
 
-console.log( add( 3 ) );
+console.log( f( 3 ) );
 // > 13
           </code></pre>
           <aside class="notes" data-markdown>
